@@ -16,7 +16,7 @@ This project is a series of web pages to show case my personal portfolio that ca
 
 ## Installation
 
-To view the code and download go to [https://ph-kandy.github.io/Portfolio/]
+To view the code and download go to [https://andrewkosel.github.io/Portfolio/]
 
 
 ## Usage 
