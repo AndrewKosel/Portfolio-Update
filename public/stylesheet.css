@@ -1,0 +1,58 @@
+body {
+    background-image: url(https://s31531.pcdn.co/wp-content/uploads/2011/03/skbk_feb01_gesture22.gif);
+    fill-opacity: inherit;
+    opacity: 20;
+    background-repeat: repeat;
+    background-position: left;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 5; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 5; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 5; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 5; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 4; }
+}
+
+
+.container {
+    
+    padding: 20px;
+    color: black;
+    background-color: rgb(156, 210, 241);
+    margin-bottom: 40px;
+    margin-top: 35px;
+    width: 90%;
+}
+
+  
+.footer { 
+    text-align: center;
+}
+
